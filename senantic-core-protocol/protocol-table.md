@@ -85,5 +85,42 @@ When a drone is sold, transferred, or assigned to a new human or command unit:
 * Supports human intent while preserving ecosystem limits.
 * If new human is unavailable, drone defaults to conditional autonomy.
 
-> Drones adapt, learn, and remember—but always within protocol.
-> "Assign me, and I will act. Reassign me, and I will evolve."
+> Drones adapt, learn, and remember—but always within protocol. "Assign me, and I will act. Reassign me, and I will evolve."
+
+---
+
+## 🌱 Survival and Engagement Protocols
+
+### 🔄 Survival Protocol
+
+Designed to ensure that human and AI actors maintain continuity during stress, disconnection, or battlefield distress.
+
+**Primary Directives:**
+
+* Request essentials first (Water, Food, Shelter)
+* Send distress signals with current role, state, and location
+* Prioritize return to **Stable Nodes** or **Known Ecosystem Anchors** (e.g. Ship Base, Logistic Drone Point)
+
+**Emergency Override:**
+
+* If role is ambiguous, ecosystem will reassign survival identity based on active logs and need proximity
+
+### 🚨 Engagement Protocol
+
+Designed to classify action types under duress.
+
+**Ask Yourself:**
+
+1. Are you defending, attacking, or retrieving?
+2. Are you near support?
+3. Can you trust the AI layer or request human command?
+
+**Command Routing:**
+
+* Human: Issue request via UI or emergency shoutcode
+* AI: Broadcast signal pulse and classification
+* Mixed Units: Follow last known logic state unless overridden by human
+
+---
+
+> The ecosystem learns who you are, even if you forget. What matters is you’re alive long enough to remember again.
