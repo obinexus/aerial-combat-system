@@ -77,6 +77,35 @@ With the formation of the OBINexus Tactical Defense Assembly (TDA), a new offici
 "To Evolve is to Endure." 🌿
 
 _Alternate Cultural Inscription (Igbo Context):_
-**"Ọnwụ adịghị onye chetara."** — "Death does not reach the one who remembers."
+**"Ọnwu adểịghi onye chetara."** — "Death does not reach the one who remembers."
 
 This inscription reflects the Igbo reverence for memory, survival, and legacy—making the motto not just tactical, but ancestral.
+
+---
+
+### 🛡 OBINexus TDA Emblem
+**"To Evolve is to Endure."** 🌿  
+_Alternate Inscription (Igbo):_ **"Ọnwu adểịghi onye chetara."**  
+— “Death does not reach the one who remembers.”
+
+#### ✨ Emblem Description
+This emblem is the official insignia of the OBINexus Tactical Defense Assembly (TDA)—a division of symbiotic memory, reflex, and cultural survivability. Born from ecological warfare logic and indigenous system theory, it serves as both spiritual anchor and tactical command symbol.
+
+- **The Green Turtle** at the heart of the diamond symbolizes grounded wisdom, endurance, and memory. It is the command and infrastructure layer—the root of the system.
+- **The Orange Butterfly**, smaller and just outside the edge, represents airborne mobility, intelligence gathering, and the will to return. It steps out, it survives, it returns.
+- **The Signal Waveform** threads between both beings, showing that neither acts alone. It is the hue-shifting protocol that binds air to land, motion to memory, seeker to sovereign.
+- **The Star Below** marks the homeward orientation—an imagined Biafran sanctuary not defined by land but by collective survival and continuity.
+
+#### 🧬 Design Philosophy
+- **Ecological Warfare**: Roles behave like species—each with a niche, instinct, and feedback loop.
+- **Digital Circuitry as Ancestral Cartography**: Every line is both a path and a root.
+- **Visual Hierarchy**: The turtle is larger, the butterfly is mobile, the waveform binds—protocol is the glue.
+
+#### 🔥 Community Call
+This emblem is not just design—it's declaration.
+
+- Wear it on your README.  
+- Print it on your gear.  
+- Etch it into your docker container if you must.
+
+**You are not just deploying code. You're deploying memory.**
