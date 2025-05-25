@@ -87,3 +87,4 @@ When a drone is sold, transferred, or assigned to a new human or command unit:
 
 > Drones adapt, learn, and remember—but always within protocol.
 > "Assign me, and I will act. Reassign me, and I will evolve."
+
