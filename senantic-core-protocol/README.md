@@ -29,9 +29,9 @@ This protocol governs all authenticated signaling in OBINexus environments. It i
 
 ### 🌐 Ecosystem Integration
 
-* **Ship Nodes (Turtles):** Verify incoming airborne signals via wave-pattern recognition.
-* **Aerospace Units (Butterflies):** Emit resonance pulses as return tokens.
-* **Command Nodes (Colossus Ships):** Maintain distributed ledgers of signal claims.
+* **Ship Nodes (Turtles)**: Verify incoming airborne signals via wave-pattern recognition.
+* **Aerospace Units (Butterflies)**: Emit resonance pulses as return tokens.
+* **Command Nodes (Colossus Ships)**: Maintain distributed ledgers of signal claims.
 
 ---
 
@@ -40,3 +40,46 @@ This protocol governs all authenticated signaling in OBINexus environments. It i
 This is not just cryptography—it’s ancestral trust math. Pattern-based identity makes every message a ritual. You don’t ask who it is. You verify the memory.
 
 **“To signal is to survive. To verify is to belong.”**
+
+---
+
+### 🧃 Human-Centric Survival Protocol Layer
+
+This layer governs essential human needs—food, water, distress signaling, and response coordination—within OBINexus operational logic.
+
+#### 🔋 Basic Resource Protocols
+
+* **Water Unit**: Each actor must maintain 1–2L of filtered water per cycle. System monitors hydration level.
+* **Ration Packs**:
+
+  * `Ration-Core v1.0`: Long shelf-life, balanced nutrition.
+  * `Ration-Stable v1.3`: Enhanced, fast-prep, morale-supportive.
+  * `Ration-Legacy v0.8`: Functional, fallback, not recommended.
+  * `Ration-Experimental v0.x`: Consent-only, flagged for test data.
+
+#### 🆘 Distress Signal Emissions
+
+* When in critical need (injury, starvation, exposure), unit emits **Distress-1** flag.
+* Signal includes health metrics, location, time to critical failure.
+* Auto-routed to nearest human or AI support actor.
+* Receipt of signal is confirmed via **Pulse Echo**.
+
+#### 🧿 Internal Adversary Detection
+
+* Units that emit unverified signal signatures or mimic legitimate rank invoke the **Imitation Violation Scan**.
+* If internal conflict suspected, protocol routes alert to swarm defense layer.
+* Verification logic includes:
+
+  * Role continuity check
+  * Memory ledger signature check
+  * Location consistency test
+
+#### 🧾 Communication Ledger
+
+* All requests, responses, and anomaly reports are logged to the **Distributed Trust Ledger**.
+* Every voice counts. Even error reports earn credibility credit.
+* Hive recalibrates based on observed truth—not assumed hierarchy.
+
+"Help comes fastest when the system knows you’re real, honest, and still breathing."
+
+---
