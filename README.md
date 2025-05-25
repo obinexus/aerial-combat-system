@@ -1,9 +1,10 @@
-# Aeroscale Flight AI Lab
+
 
 ## README: Purpose and Philosophy
 
 ### Project Title
 **Aeroscale Flight AI Lab**
+![LOGO](./favicon.png)
 
 ### Actor Types
 These are the operational beings within the ecosystem—each behaving like natural analogues, contributing to mutual survival:
