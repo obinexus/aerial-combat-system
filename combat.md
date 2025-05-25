@@ -51,30 +51,30 @@
 - **Purpose**: To model the contested land environment beneath aerial operations.
 - **Zones**:
   - **Buffered Zone**: The neutral or contested middle ground where engagements are expected. This is the default battlefield, where friend and foe collide.
-  - **Pre-Rezones**: Subsets within the Buffered Zone where the enemy already holds dominance—through resources, checkpoints, or surveillance advantage.
+  - **Pre-Rezones**: Subsets within the Buffered Zone where the enemy already holds dominance-through resources, checkpoints, or surveillance advantage.
   - **Checkpoint Zones**: Known enemy-controlled sectors within the Buffered Zone. Entry into these zones means operating behind enemy lines.
-- **Impact**: Introduces spatial logic into conflict modeling—territory isn’t binary; it’s layered with risk. Forces strategic preparation, not guessing. Control shifts based on information and positioning, not assumptions.
+- **Impact**: Introduces spatial logic into conflict modeling-territory isn't binary; it's layered with risk. Forces strategic preparation, not guessing. Control shifts based on information and positioning, not assumptions.
 
 ### 7. Support Fleet Layer (Colossus-Class Operations)
 - **Purpose**: To provide battlefield continuity and aerial support through deployable, floating infrastructure.
 - **Concept**:
   - **Colossus-Class Ships**: Large, multi-functional ships that act as mobile bases for aerial operations. Serve as command hubs, refueling stations, repair bays, and data relays.
   - **Operational Role**: Bridge the disconnect between aerial and ground/naval forces. Provide an anchor point for return and resupply.
-  - **Cultural Role**: These ships form the identity and cohesion of the aerial fleet—pilots see them as extensions of themselves. "My ship, my system."
+  - **Cultural Role**: These ships form the identity and cohesion of the aerial fleet-pilots see them as extensions of themselves. "My ship, my system."
   - **Functional Integration**: Linked directly with Dynamic Aeroscale Architecture to deliver modular replacements, facilitate communication between squadrons, and sustain long-range missions.
 - **Impact**: Adds depth and realism to aerial warfare by integrating logistical and psychological support systems. Enables persistent engagement through smart, flexible infrastructure.
 
 ### 8. Command Autonomy and Strike Logic
 - **Purpose**: To grant battlefield infrastructure the capacity to act as intelligent nodes in the combat network.
 - **Features**:
-  - **Combat-Aware Ships**: Colossus-class vessels are not passive relays—they can analyze, target, and execute autonomous operations based on battlefield data.
+  - **Combat-Aware Ships**: Colossus-class vessels are not passive relays-they can analyze, target, and execute autonomous operations based on battlefield data.
   - **Precision Autonomy**: Similar to specialized snipers, these ships can perform isolated strikes when timing, information, and strategic value align.
   - **Distributed Command Resilience**: Reduces dependency on human oversight during high-load situations; ensures system-wide adaptability when conventional command chains falter.
 - **Risk Consideration**: High-value targets, vulnerable to focused enemy efforts; must balance utility and exposure.
-- **Impact**: Enables a seamless mesh of AI-driven action, human command, and logistics support—pushing beyond traditional top-down control models.
+- **Impact**: Enables a seamless mesh of AI-driven action, human command, and logistics support-pushing beyond traditional top-down control models.
 
 ### 9. Ethical Systems Doctrine (Anti-Expendable Design)
-- **Purpose**: To prevent the exploitation of units—human or machine—as disposable assets.
+- **Purpose**: To prevent the exploitation of units-human or machine-as disposable assets.
 - **Principles**:
   - **No Kamikaze Assumption**: All systems are designed with survivability and return potential, rejecting doctrines that sacrifice units due to lack of resources or desperation.
   - **Support-Driven Execution**: Every mission should be backed with recovery options, redundancy, and structural support.
@@ -82,5 +82,15 @@
   - **Resource-Linked Tactics**: Kamikaze-style behavior typically emerges from scarcity. The system design must ensure replenishment and fallback plans to reduce the need for irreversible actions.
 - **Impact**: Shifts doctrine toward intelligent resilience. Enhances ethical considerations in combat AI. Encourages smart, self-aware deployment rather than one-way obedience.
 
+### 10. VOIP and Real-Time Comms Framework
+- **Purpose**: To maintain seamless, encrypted, real-time voice and data communications across all layers of the system.
+- **Components**:
+  - **Voice Over IP Mesh Network**: Redundant, decentralized VOIP grid ensuring persistent contact between aerial units, support fleets, ground forces, and command AI.
+  - **Adaptive Channel Priority**: AI-assisted traffic shaping prioritizes mission-critical channels in high-load conditions.
+  - **Stealth Comms Protocols**: Communication that adjusts transmission strength and routing dynamically to reduce traceability and interception.
+  - **Unit-AI Speech Relay**: Allows autonomous or semi-autonomous units to vocally interface with humans when necessary, preserving human-level decision support.
+- **Impact**: Ensures command and coordination never collapse due to infrastructure strain or enemy interference. Makes tactical cohesion possible even under jamming or disruption scenarios.
+
 # To be continued...
 # Next Ideas: Battlefield Buffering, Altitude Dynamics, Adaptive Flight AI
+
