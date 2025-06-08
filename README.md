@@ -18,16 +18,16 @@ Evolution requires adaptation to diverse environments and challenges. Systems th
 ## Technical Architecture
 
 ```
-ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
-³           Nexus Logic Overseer          Strategic Coordination
-ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
-³  Air-Tier    ³  Sea-Tier    ³  Support  Tactical Operations
-³  Coordinator ³  Commander   ³  Systems  ³
-ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
-³         NPL Protocol Layer              Cognitive Adaptation
-ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
-³    Multi-Path Routing Infrastructure    Core Framework
-ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚           Nexus Logic Overseer          â”‚  â† Strategic Coordination
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Air-Tier    â”‚  Sea-Tier    â”‚  Support  â”‚  â† Tactical Operations
+â”‚  Coordinator â”‚  Commander   â”‚  Systems  â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚         NPL Protocol Layer              â”‚  â† Cognitive Adaptation
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚    Multi-Path Routing Infrastructure    â”‚  â† Core Framework
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### NPL Cognitive Patterns
@@ -44,8 +44,8 @@ Evolution requires adaptation to diverse environments and challenges. Systems th
 
 ### Prerequisites
 
-- **Compiler Toolchain**: `riftlang.exe  .so.a  rift.exe  gosilang`
-- **Build Orchestration**: `nlink  polybuild`
+- **Compiler Toolchain**: `riftlang.exe â†’ .so.a â†’ rift.exe â†’ gosilang`
+- **Build Orchestration**: `nlink â†’ polybuild`
 - **Runtime Environment**: Node.js 18+, Python 3.11+
 - **Cognitive Profile Database**: NPL-compatible user modeling system
 
@@ -174,8 +174,8 @@ python tests/test_pathway_redundancy.py
 
 ### Test Coverage Requirements
 
-- **Cognitive Pattern Coverage**: =95% across all NPL patterns
-- **Accessibility Coefficient**: =85% across cognitive diversity spectrum
+- **Cognitive Pattern Coverage**: â‰¥95% across all NPL patterns
+- **Accessibility Coefficient**: â‰¥85% across cognitive diversity spectrum
 - **Pathway Switching Latency**: <200ms under standard load
 - **Agency Preservation**: 100% user choice preservation
 
@@ -209,11 +209,11 @@ python tests/test_pathway_redundancy.py
 
 ## Recent Milestones
 
-? NPL Pattern Alpha (Iterative Confirmation) implementation  
-? Multi-path routing infrastructure  
-? Basic cognitive profile management  
-?? Pattern Delta (Affective Routing) in development  
-?? Pattern Epsilon (Social Mapping) requirements analysis  
+âœ… NPL Pattern Alpha (Iterative Confirmation) implementation  
+âœ… Multi-path routing infrastructure  
+âœ… Basic cognitive profile management  
+ğŸ”„ Pattern Delta (Affective Routing) in development  
+ğŸ“‹ Pattern Epsilon (Social Mapping) requirements analysis  
 
 ## Upcoming Deliverables
 
@@ -275,4 +275,4 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ---
 
-*Building resilient systems through cognitive accessibility and adaptive design principles.³  ³  ³  ³  
+*Building resilient systems through cognitive accessibility and adaptive design principles.*
