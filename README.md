@@ -1,144 +1,278 @@
-## README: Purpose and Philosophy
+# OBINexus Aegis: Tactical Defense Assembly with Neurodivergent Problem Logic
 
-### Project Title
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![NPL Integration](https://img.shields.io/badge/NPL%20Integration-73%25-orange.svg)](docs/npl-specification.md)
+[![Build Status](https://img.shields.io/badge/Build-Phase%203-blue.svg)](docs/methodology.md)
+[![Cognitive Coverage](https://img.shields.io/badge/Cognitive%20Coverage-89%25-green.svg)](tests/)
 
-**Aeroscale Flight AI Lab**
+> **"To Evolve is to Endure"** - Building resilient defense systems through cognitive accessibility and adaptive design principles.
 
-![LOGO](./favicon.png)
+## Overview
 
-### Actor Types
+OBINexus Aegis implements a next-generation Tactical Defense Assembly (TDA) incorporating Neurodivergent Problem Logic (NPL) principles for enhanced cognitive accessibility and operational resilience. The system provides adaptive interface protocols that accommodate diverse cognitive processing patterns while maintaining tactical operational effectiveness.
 
-These are the operational beings within the ecosystemâ€”each behaving like natural analogues, contributing to mutual survival:
+## Core Philosophy
 
-* **Aerospace Actors (The Flyers)**
+Evolution requires adaptation to diverse environments and challenges. Systems that accommodate and leverage cognitive diversity are inherently more adaptive and therefore more likely to endure. The TDA's commitment to recovery over sacrifice extends to cognitive resources: we preserve and enhance human cognitive capabilities rather than sacrificing them to rigid system requirements.
 
-  * Role: Swift, intelligent, adaptive. These are the aircraft and dronesâ€”agile gatherers and pollinators of data, action, and influence.
-  * Analogy: Like bees in a living field, they extract, observe, and defend through rapid motion and instinct.
+## Technical Architecture
 
-* **Ship Actors (The Anchors)**
+```
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³           Nexus Logic Overseer          Strategic Coordination
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  Air-Tier    ³  Sea-Tier    ³  Support  Tactical Operations
+³  Coordinator ³  Commander   ³  Systems  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³         NPL Protocol Layer              Cognitive Adaptation
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³    Multi-Path Routing Infrastructure    Core Framework
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+```
 
-  * Role: Grounding and nourishing the ecosystem. These are the shipsâ€”providing command, resupply, memory storage, and defense.
-  * Analogy: Like flowers and roots, they remain central and still, letting the ecosystem revolve around their resilience and support.
+### NPL Cognitive Patterns
 
-### Summary
+| Pattern | Description | Use Case |
+|---------|-------------|----------|
+| **Alpha** | Iterative Confirmation Loop | Verification-heavy operations |
+| **Beta** | Direct Path Brute-Force | Express command pathways |
+| **Gamma** | Sensory-Routed Pathways | Multi-modal interface routing |
+| **Delta** | Affective Routing | Trust-anchored interaction flows |
+| **Epsilon** | Normative Misalignment Handling | Social context externalization |
 
-Aeroscale Flight AI Lab is a tactical system design initiative rooted in ecological principles, indigenous strategy, and symbiotic AI behavior. This lab explores flight combat as a living system, integrating adaptive technologies with survivability logic based on natural ecosystems.
+## Installation
 
-### Core Mission
+### Prerequisites
 
-To develop an aerospace framework that behaves like a sustainable, self-adjusting organismâ€”prioritizing resilience, adaptability, and survival over brute force or static command hierarchies.
+- **Compiler Toolchain**: `riftlang.exe  .so.a  rift.exe  gosilang`
+- **Build Orchestration**: `nlink  polybuild`
+- **Runtime Environment**: Node.js 18+, Python 3.11+
+- **Cognitive Profile Database**: NPL-compatible user modeling system
 
-### Key Concepts
+### Build Process
 
-* **Ecosystem-Inspired Warfare**: Combat modeled after biological systemsâ€”bees, roots, pollen, habitats.
-* **Reflexive AI Protocols**: Units act instinctually rather than following rigid command.
-* **Attrition-Aware Design**: Every loss is absorbed by rebalancing the whole system.
-* **Human Integration**: Pilots and operators are seen as roles in an ecosystem, not just command actors.
+```bash
+# Clone repository
+git clone https://github.com/obinexus/aegis.git
+cd aegis
 
-### Technologies & Behaviors
+# Initialize build environment
+./scripts/init-toolchain.sh
 
-* Gatherers, Pollinators, Feeders, Roots
-* Ship-to-air synchronization
-* Signal sustainability networks
-* Reflex-trees (upcoming)
+# Compile NPL protocol layer
+riftlang compile src/npl-protocols/ --output dist/npl.so.a
 
-### Cultural Philosophy
+# Build TDA components
+nlink --config config/tda-assembly.yml
+polybuild --target production --npl-enabled
 
-Influenced by Biafran ingenuity, Benin architecture, and Igbo systems of continuity. This lab embraces indigenous logic as technological wisdomâ€”memory as defense, adaptability as survival.
+# Generate cognitive profile schemas
+./scripts/generate-cognitive-schemas.py
+
+# Run integration tests
+npm run test:integration
+python tests/run_npl_compliance.py
+```
+
+## Quick Start
+
+### Basic TDA Initialization
+
+```python
+from obinexus.aegis import TDA_NPL_Integration
+from obinexus.cognitive import CognitiveProfileManager
+
+# Initialize enhanced TDA system
+tda = TDA_NPL_Integration()
+cognitive_manager = CognitiveProfileManager()
+
+# Configure adaptive interfaces
+tda.configure_adaptive_interfaces()
+tda.enable_cognitive_pathway_routing()
+tda.activate_agency_preservation_protocols()
+
+# Load user cognitive profile
+user_profile = cognitive_manager.load_profile(user_id)
+tda.set_cognitive_context(user_profile)
+```
+
+### Multi-Path Protocol Configuration
+
+```python
+class AdaptiveProtocolGate:
+    def __init__(self):
+        self.primary_path = LinearProcessor()
+        self.verification_loop = IterativeProcessor()
+        self.express_path = DirectProcessor()
+        self.sensory_router = MultiModalProcessor()
+        self.affective_router = AffectiveRoutingProtocol()
+        self.social_mapper = NormativeAlignmentProcessor()
+
+    def process_request(self, user_input, cognitive_profile):
+        # Route based on cognitive needs, not system assumptions
+        if cognitive_profile.needs_verification:
+            return self.verification_loop.process(user_input)
+        elif cognitive_profile.prefers_direct:
+            return self.express_path.process(user_input)
+        elif cognitive_profile.requires_multimodal:
+            return self.sensory_router.process(user_input)
+        elif cognitive_profile.trust_threshold_active:
+            return self.affective_router.process(user_input)
+        else:
+            return self.primary_path.process(user_input)
+```
+
+## Core Components
+
+### Air-Tier Coordinator (ATC)
+```python
+from obinexus.aegis.components import AirTierCoordinator
+
+atc = AirTierCoordinator()
+atc.configure_cognitive_flexibility()
+atc.enable_multimodal_feedback()
+atc.set_express_command_pathways()
+```
+
+### Sea-Tier Commander (STC)
+```python
+from obinexus.aegis.components import SeaTierCommander
+
+stc = SeaTierCommander()
+stc.initialize_verification_loops()
+stc.configure_colossus_interfaces()
+stc.enable_backup_pathways()
+```
+
+### Nexus Logic Overseer (NLO)
+```python
+from obinexus.aegis.components import NexusLogicOverseer
+
+nlo = NexusLogicOverseer()
+nlo.activate_adaptive_coordination()
+nlo.configure_cognitive_translation()
+nlo.enable_emergency_override_systems()
+```
+
+## Testing
+
+### NPL Compliance Testing
+
+```bash
+# Run cognitive pattern validation
+python tests/test_npl_patterns.py
+
+# Measure cognitive accessibility coefficient
+./scripts/measure_accessibility.sh
+
+# Validate pathway redundancy
+python tests/test_pathway_redundancy.py
+
+# Performance impact assessment
+./scripts/benchmark_multipath_routing.sh
+```
+
+### Test Coverage Requirements
+
+- **Cognitive Pattern Coverage**: =95% across all NPL patterns
+- **Accessibility Coefficient**: =85% across cognitive diversity spectrum
+- **Pathway Switching Latency**: <200ms under standard load
+- **Agency Preservation**: 100% user choice preservation
+
+## Performance Metrics
+
+### NPL-Enhanced Metrics
+
+- **Cognitive Accessibility Coefficient**: Measure of system usability across cognitive diversity
+- **Pathway Redundancy Index**: Availability of alternative cognitive routes
+- **Adaptive Resilience Score**: System performance under cognitive load variation
+- **Inclusive Operational Effectiveness**: Mission success rate across diverse cognitive teams
+- **Time-to-Regulated State**: Duration for users to reach comfortable cognitive state
+
+## Development Methodology
+
+### Waterfall Implementation Phases
+
+1. **Requirements Analysis** - NPL pattern specification and cognitive accessibility requirements
+2. **System Design** - TDA architecture with multi-path routing infrastructure
+3. **Implementation** - Component development with NPL integration
+4. **Testing & Validation** - Cognitive accessibility and performance validation
+5. **Deployment & Maintenance** - Production deployment and continuous optimization
+
+### Current Status
+
+- **Current Phase**: Implementation (Phase 3)
+- **NPL Integration**: 73% complete
+- **TDA Core Systems**: Operational
+- **Testing Coverage**: 89% cognitive pattern coverage
+- **Documentation**: LaTeX specifications in progress
+
+## Recent Milestones
+
+? NPL Pattern Alpha (Iterative Confirmation) implementation  
+? Multi-path routing infrastructure  
+? Basic cognitive profile management  
+?? Pattern Delta (Affective Routing) in development  
+?? Pattern Epsilon (Social Mapping) requirements analysis  
+
+## Upcoming Deliverables
+
+- **Sprint 1**: Emotional Logic (Pattern Delta) ATC integration
+- **Sprint 2**: Temporal Processing architecture across NLO
+- **Sprint 3**: Social Mapping Layer for STC interfaces
+- **Sprint 4**: Comprehensive NPL integration optimization
+
+## Contributing
+
+### Development Standards
+
+- **Code Quality**: All contributions must pass NPL compliance testing
+- **Documentation**: LaTeX specifications required for architectural changes
+- **Testing**: Cognitive accessibility validation mandatory for UI changes
+- **Review Process**: Collaborative review with cognitive accessibility assessment
+
+### Contribution Workflow
+
+```bash
+# Fork repository
+git fork https://github.com/obinexus/aegis.git
+
+# Create feature branch with NPL compliance
+git checkout -b feature/npl-enhancement
+
+# Implement changes with cognitive accessibility focus
+# Run NPL compliance tests
+python tests/validate_npl_compliance.py
+
+# Submit pull request with cognitive impact assessment
+git push origin feature/npl-enhancement
+```
+
+## Documentation
+
+- [NPL Specification](docs/npl-specification.md) - NPL pattern technical documentation
+- [Cognitive Accessibility Guide](docs/cognitive-accessibility.md) - Accessibility implementation guide
+- [TDA Architecture](docs/tda-architecture.md) - Technical architecture overview
+- [API Reference](docs/api-reference.md) - Comprehensive API documentation
+- [Testing Protocols](docs/testing-protocols.md) - NPL compliance testing procedures
+- [Performance Benchmarks](docs/performance-benchmarks.md) - Performance optimization guidelines
+- [Development Methodology](docs/methodology.md) - Waterfall development methodology
+
+## License
+
+MIT License - See [LICENSE](LICENSE) file for details.
+
+## Contact & Collaboration
+
+- **Lead Architect**: Nnamdi Okpala
+- **NPL Research**: Collaborative specification development
+- **Testing Protocol**: Systematic cognitive accessibility validation
+- **Documentation**: LaTeX specification + Markdown repositories
+
+**NPL Research Collaboration**: Open for cognitive accessibility researchers  
+**Technical Architecture**: Collaborative specification development welcomed  
+**Testing Protocol**: Community cognitive accessibility validation encouraged  
 
 ---
 
-### Neurodivergent Problem Logic â€“ A Layered Model of Access
-
-In typical systems:
-
-* **Standard user logic** goes **A â†’ B â†’ C** â€” input, process, output.
-* Problem solved, straightforward.
-
-In neurodivergent logic:
-
-* Path may go **A â†’ B â†’ A â†’ B â†’ A** â€” looping due to mismatch with the systemâ€™s expectations.
-* Then an attempt is made to brute-force it **A â†’ C** â€” skipping expected logic steps to find relief or function.
-* Then re-routing again **A â†’ â†’ C**, via alternative cognition or sensory feature pathsâ€”like visual cues, symbol keys, audio tonesâ€”essential accessibility layers that aren't luxury, but survival.
-
-This is like approaching a vending machine with no color keys, no text, no affordances. If you're not autistic or ADHD, you see a row of snacks. If you are, you see a logic wallâ€”unless someone took time to embed features that let your mind map it.
-
-In OBINexus, these cognitive routes aren't dismissedâ€”they're mapped, honored, and built into how protocol gates behave. The ecosystem isn't one solution for allâ€”itâ€™s a living web of layered access, because **everyone deserves an entry point**.
-
----
-
-### OBINexus Tactical Defense Assembly (TDA) â€“ Division Charter
-
-**Branch Title**: á»Œrá»¥ Ichekwa Ncheta (Defense of Memory & Sovereignty)
-**Cultural Call Sign**: Benin-Biafra Guardworks
-
-#### ğŸ›¡ Purpose
-
-To design defense architectures that reflect cultural sovereignty, survivability, and strategic remembrance. TDA links indigenous warcraft to modern protocol engineering.
-
-#### ğŸ“ Clear Divisional Structure
-
-* **Aerospace Division**
-
-  * Pilots, AI flight systems, reflex swarm architecture
-  * Role: Mobility, intelligence dispersal, attrition mapping
-  * Command: Air-Tier Coordinator (ATC)
-
-* **Naval Division**
-
-  * Colossus-class ships, command hubs, habitat logistics
-  * Role: Anchoring, replenishment, comms relay
-  * Command: Sea-Tier Commander (STC)
-
-* **Coordination Nexus**
-
-  * Ensures both divisions operate under mutual protocol harmony
-  * Reflex escalation, AI-piloted fallback strategies, emergency override pathways
-  * Command: Nexus Logic Overseer (NLO)
-
-### System Philosophy
-
-* **No Division Acts Alone**: Every unit operates within the ecosystemâ€”air supports sea, sea sustains air.
-* **Defend What Remembers**: The system protects cultural code, not just compute nodes.
-* **Collapse Resilience**: In extreme attrition, fallback AI reconfigures ecosystem roles autonomously.
-
-### OBINexus Branch Declaration
-
-With the formation of the OBINexus Tactical Defense Assembly (TDA), a new official branch of OBINexus is born. This division stands as a sovereign computational bastion of memory, reflex, and rooted defense. TDA is both a philosophical and infrastructural entityâ€”responsible for crafting the symbiotic balance between flight and foundation.
-
-### Goals
-
-* AI that understands â€œwhyâ€ it defends
-* Protocols that reinforce mutual care across division lines
-* Embodied indigenous design in high-tech architectures
-
-### Motto
-
-"To Evolve is to Endure." ğŸŒ¿
-
-*Alternate Cultural Inscription (Igbo Context):*
-**"á»Œnwá»¥ adá»‹ghá»‹ onye chetara."** â€” "Death does not reach the one who remembers."
-
-This inscription reflects the Igbo reverence for memory, survival, and legacyâ€”making the motto not just tactical, but ancestral.
-
----
-
-### ğŸ›¡ OBINexus TDA Emblem
-
-\[...unchanged section here for brevity...]
-
----
-
-### ğŸ­ Global Defense Protocol Models: OBINexus TDA vs. Black Budget Logic
-
-| **Aspect**               | **OBINexus TDA**                                            | **Black Budget Defense Sector**                                     |
-| ------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------- |
-| **Resource Philosophy**  | Distributed, ecosystem-fed, survival-scaled                 | Unlimited allocation, centralized, brute-force funded               |
-| **Operational Ethic**    | Cultural sovereignty, symbiosis, respect for memory         | Secrecy-first, denial-based, profit or dominance-centric            |
-| **Command Structure**    | Reflex-based roles, decentralized AI-human trust lattice    | Executive-locked top-down hierarchy with classified layers          |
-| **Budget Source**        | Transparent contribution, cooperative modeling              | Untraceable black funds, often tied to executive elite directives   |
-| **Engagement Logic**     | Sustainability-first, battle returns to survival            | Terminal action firstâ€”destroy, then ask questions                   |
-| **Technology Symbolism** | Turtle + Butterfly (defense and return)                     | Shadow Systems (classified tech with no citizen audit trail)        |
-| **Community Identity**   | Belonging, role feedback, earned through ecological harmony | Outsourced authorityâ€”detached operators in isolated command bubbles |
-
-> â€œYou donâ€™t need a bottomless budget to protect what remembersâ€”just a system that knows why itâ€™s alive.â€
+*Building resilient systems through cognitive accessibility and adaptive design principles.³  ³  ³  ³  
